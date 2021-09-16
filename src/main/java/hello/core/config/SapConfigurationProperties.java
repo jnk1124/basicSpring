@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Getter @Setter
-@RequiredArgsConstructor
 @ConfigurationProperties("sap")
 public class SapConfigurationProperties {
 

@@ -14,9 +14,6 @@ public class TestSpringRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println(sapConfigurationProperties.getTestData());
-        System.out.println(sapConfigurationProperties.getFilePath());
-
 
     }
 }
